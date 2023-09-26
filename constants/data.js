@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
+  githubUsername: "jolextom",
+  name: "Farinloye Joseph",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  email: "goldenprince724@gmail.com",
+  phone: "+234 7046307557",
+  address: "15 / 17 Oyedeji Street Ijiaye Lagos, Nigeria",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -106,12 +106,12 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
-    peerlist: "https://peerlist.io/manuarora",
+    // instagram: "https://instagram.com/maninthere",
+    twitter: "https://twitter.com/jolextom",
+    linkedin: "www.linkedin.com/in/jolextom",
+    github: "https://github.com/Jolextom",
+    // facebook: "https://facebook.com/",
+    // peerlist: "https://peerlist.io/manuarora",
   },
 };
 
