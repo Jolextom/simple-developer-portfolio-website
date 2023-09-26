@@ -15,13 +15,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" "}
-            <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.about.currentProjectUrl}
-            >
-              {userData.about.currentProject} ✈️
-            </a>
+            {userData.about.title}.
           </p>
         </div>
       </div>
@@ -41,7 +35,7 @@ export default function AboutMe() {
                 >
                   mail
                 </a>{" "}
-                and I'll get back. I swear.
+                and I'll get back. Trust me.
               </p>
             </div>
             <div className="mt-8">
@@ -66,30 +60,6 @@ export default function AboutMe() {
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
-                <a
-                  href={userData.socialLinks.peerlist}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Peerlist
-                  </div>
-                </a>
-              </div>
-              <div className="flex flex-row justify-start items-center ">
-                <a
-                  href={userData.socialLinks.facebook}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Facebook
-                  </div>
-                </a>
-              </div>
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
@@ -123,18 +93,6 @@ export default function AboutMe() {
                   <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     LinkedIn
-                  </div>
-                </a>
-              </div>
-              <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.instagram}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
-                    Instagram
                   </div>
                 </a>
               </div>
