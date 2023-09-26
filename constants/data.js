@@ -82,7 +82,7 @@ const userData = {
       desc: "My journey towards becoming a proficient coder has found a home in this internship, where skill-building is an ongoing adventure provided by the program",
     },
   ],
-  resumeUrl: "/",
+  resumeUrl: "https://resume.io/r/KVH26MxBZ",
   socialLinks: {
     // instagram: "https://instagram.com/maninthere",
     twitter: "https://twitter.com/jolextom",
