@@ -1,6 +1,6 @@
 const userData = {
   githubUsername: "jolextom",
-  name: "Farinloye Joseph",
+  name: "SaaS Joseph",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.png",
   email: "goldenprince724@gmail.com",
